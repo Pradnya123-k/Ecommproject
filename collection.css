@@ -1,0 +1,18 @@
+#KIDS{
+    padding: 50px 0px;
+    font-size: 50px;
+    text-align: center;
+
+}
+.wrapper{
+    display: grid;
+    grid-template-columns: repeat(4,20%);
+    grid-auto-flow: minmax(200px,auto);
+    grid: gap 1em;
+
+}
+.wrapper> div img{
+    width: 100%;
+    overflow: hidden;
+    
+}
